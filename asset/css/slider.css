@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.mySlides {
+    display: none
+}
+        
+.slideshow-container {
+    position: relative;
+}
+        
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+        
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.content{
+    display: flex;
+}  
+.content-slider-left{
+    width: 60%;
+    padding: 10%;
+    max-height: 447.69px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+}
+.slider-left-title{
+    font-family: 'SF-Pro-Display-Bold';
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+.slider-left-content{
+    color: white;
+    margin: 20px 0 40px 0;
+    text-align: justify;
+    font-family: 'SF-Pro-Display-LightItalic';
+}
+.button-countdown{
+    display: flex;
+    align-items: center;
+}
+.slider-left-button{
+    padding: 13px;
+    background-color: blue;
+    color: white;
+    font-family: 'SF-Pro-Display-Bold';
+    border-radius: 18px;
+}
+.coutdown{
+    display: flex;
+    margin-right: 30px;
+
+} 
+.coutdown-item{
+    font-family: 'SF-Pro-Display-LightItalic';
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+}
+.coutdown-item-top{
+    font-family: 'SF-Pro-Display-BoldItalic';
+    font-size: 30px;
+}   
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+        
+        
+img{
+    transition: transform .2s;
+}

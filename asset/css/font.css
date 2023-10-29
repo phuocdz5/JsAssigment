@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Lalezar-Regular' ;
+    src: url(../font/Lalezar-Regular.otf);
+    
+}
+@font-face {
+    font-family: 'SF-Pro-Display-Blackr' ;
+    src: url(../font/SF-Pro-Display-Black.otf);
+    
+}
+@font-face {
+    font-family: 'SF-Pro-Display-Bold' ;
+    src: url(../font/SF-Pro-Display-Bold.otf);
+    
+}
+@font-face {
+    font-family: 'SF-Pro-Display-LightItalic' ;
+    src: url(../font/SF-Pro-Display-LightItalic.otf);
+    
+}
+@font-face {
+    font-family: 'SF-Pro-Display-BoldItalic' ;
+    src: url(../font/SF-Pro-Display-BoldItalic.otf);
+    
+}
+@font-face {
+    font-family: 'Poppins-SemiBold' ;
+    src: url(../font/Poppins-SemiBold.otf);
+    
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/Libary-Grid.css">
+    <link rel="stylesheet" href="./asset/css/slider.css">
+    <link rel="stylesheet" href="./asset/css/font.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       <header  >
+            <nav>
+                <a href="#"><img src="./asset/img/logo.png" alt="" class="logo"></a>
+                <div class="navigation">
+                    <a href="#">Trang chủ</a>
+                    <a href="#introduce">Giới thiệu</a>
+                    <a href="#features">Đặc trưng</a>
+                    <a href="#reviews">Bình luận</a>
+                    <a href="#order">Đặt hàng</a>
+                </div>
+            </nav>
+            <div class="slider">
+                <div class="slideshow-container ">
+
+                    <div class="mySlides fade ">
+                        <img src="./asset/img/slide1.png" style="width:100%" alt="">
+                        <div class="content-slider-left">
+                            <h2 class="slider-left-title">iPhone 15 series 2023 đã chính thức ra mắt với nhiều cải tiến mạnh mẽ</h2>
+                            <p class="slider-left-content">Dòng sản phẩm mới của Apple sở hữu thiết kế bo cong hơn mặt lưng kính nhám và mặt trước được bảo vệ bằng Ceramic Shield. Màn hình 6.1 inch đối với bản tiêu chuẩn và 6.7 inch đối với bản Pro. Công nghệ Dynamic Island mang đến trải nghiệm thú vị, tiện lợi.</p>
+                            <div class="button-countdown">
+                                <a href="#order" class="slider-left-button">Đặt hàng ngay !</a>
+                                <div class="coutdown">
+                                    <div class="coutdown-item">
+                                        <div id="day" class="coutdown-item-top">05</div>
+                                        DAY
+                                    </div>
+                                    <div class="coutdown-item">
+                                        <div id="hour" class="coutdown-item-top">12</div> 
+                                        HOUR
+                                    </div>
+                                    <div class="coutdown-item">
+                                        <div id="minute" class="coutdown-item-top">30</div> 
+                                        MINUTE
+                                    </div>
+                                    <div class="coutdown-item">
+                                        <div id="seconds" class="coutdown-item-top">12</div>
+                                        SECONDS
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mySlides fade content">
+                        <img src="./asset/img/slide2.png" style="width:100%" alt="">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img src="./asset/img/slide3.png" style="width:100%" alt="">
+                    </div>
+                    <a id="prev" class="slide-click" onclick="plusSlides(-1)">❮</a>
+                    <a id="next" class="slide-click" onclick="plusSlides(1)">❯</a> 
+                    </div>
+                    
+            </div>
+       </header>
+       <main class="grid">
+            <div class="gioi-thieu section " id="introduce">
+                <div class="section-1 row">
+                    <div class="title-section-1 col l-12 m-12 c-12">
+                        <h1 class="title-section">Giới thiệu</h1>
+                    </div>
+                </div>
+                <div class="paragraph-section-1 row">
+                    <div class="mota-section-1 col l-12 m-12 c-0">
+                        <p>iPhone 15 series 2023 bao gồm tất cả 4 phiên bản là iPhone 15, iPhone 15 Plus, iPhone 15 Pro và iPhone 15 Pro Max.</p>
+                    </div>
+                </div>
+                <div class="content-1-section-1 row ">
+                    <div class="content-1-child-section-1 col l-6 m-6 c-12">
+                        <img src="./asset/img/tick.png" alt="" class="left-content-1" width="50px" height="50px">
+                        <div class="container-content-1-section-1">
+                            <h5 class="title-container-content-1-section-1">Camera</h5>
+                            <p class="right-content-1">Ảnh chân dung thế hệ mới. iPhone 15 Pro Max có phạm vi thu phóng quan học dài nhất từng có.</p>
+                        </div>
+                    </div>
+                    <div class="content-1-child-section-1 col l-6 m-6 c-12">
+                        <img src="./asset/img/tick.png" alt="" class="left-content-1" width="50px" height="50px">
+                        <div class="container-content-1-section-1">
+                            <h5 class="title-container-content-1-section-1">USB-C với USB 3</h5>
+                            <p class="right-content-1">Tốc độ truyền tải nhanh hơn đến 20x. Cùng với nút tác vụ bấm nhanh chóng đến tính năng yêu thích của bạn.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="content-1-section-1 row">
+                    <div class="content-1-child-section-1 col l-6 m-6 c-12">
+                        <img src="./asset/img/tick.png" alt="" class="left-content-1" width="50px" height="50px">
+                        <div class="container-content-1-section-1">
+                            <h5 class="title-container-content-1-section-1">Thời lượng pin đúng Pro</h5>
+                            <p class="right-content-1">Lên đến 29 giờ thời gian xem video trên iPhone 15 Pro Max. Và lên đến 23 giờ thời gian xem video trên iPhone 15 Pro.</p>
+                        </div>
+                    </div>
+                    <div class="content-1-child-section-1 col l-6 m-6 c-12">
+                        <img src="./asset/img/tick.png" alt="" class="left-content-1" width="50px" height="50px">
+                        <div class="container-content-1-section-1">
+                            <h5 class="title-container-content-1-section-1">Phát hiện va chạm</h5>
+                            <p class="right-content-1">iPhone 15 Pro có thể gọi trợ giúp trong tình huống va chạm ô tô nghiêm trọng. Chất liệu khung sườn bên trong iPhone 15 Pro chứa 100% nhôm tái chế.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="dac-trung section"id="features">
+                <div class="section-2 row ">
+                    <div class="title-section-2 col l-12 m-12 c-12" >
+                        <h1 class="title-section">Đặc Trưng</h1>
+                    </div>
+                   
+                </div>
+                <div class="content-2-section-2 row">
+                    <div class="content-2-child-section-2 col l-6 m-6 c-12">
+                        <img src="./asset/img/dactrung1.png" alt="" class="left-content-1" width="200px" height="200px">
+                        <div class="container-content-2-section-2">
+                            <h5 class="title-container-content-2-section-2">Chip A17 Pro</h5>
+                            <p class="right-content-2">Chip thay đổi cuộc chơi, hiệu năng chấn động địa cầu. A17 Pro là một đẳng cấp hoàn toàn mới của chip iPhone, mang lại hiệu năng đồ họa tốt nhất của Apple, tính đến thời điểm này.</p>
+                        </div>
+                    </div>
+                    <div class="content-2-child-section-2 col l-6 m-6 c-12">
+                        <img src="./asset/img/dactrung2.png" alt="" class="left-content-1" width="200px" height="200px">
+                        <div class="container-content-2-section-2">
+                            <h5 class="title-container-content-2-section-2">Nút tác vụ</h5>
+                            <p class="right-content-2">Nút Tác Vụ hoàn toàn mới là cách nhanh chóng đến tính năng yêu thích của bạn. Sau khi thiết lập tác vụ mong muốn, bạn chỉ cần nhấn và giữ để khởi chạy tác vụ đó.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="content-2-section-2 row">
+                    <div class="content-2-child-section-2 col l-6 m-6 c-12">
+                        <img src="./asset/img/dactrung3.png" alt="" class="left-content-1" width="200px" height="200px">
+                        <div class="container-content-2-section-2">
+                            <h5 class="title-container-content-2-section-2">Camera</h5>
+                            <p class="right-content-2">Camera Chính 48MP tiên tiến hơn bao giờ hết, giúp bạn chụp được những bức ảnh có độ phân giải siêu cao với độ chi tiết và màu sắc ở một đẳng cấp mới.</p>
+                        </div>
+                    </div>
+                    <div class="content-2-child-section-2 col l-6 m-6 c-12">
+                        <img src="./asset/img/dactrung4.png" alt="" class="left-content-1" width="200px" height="200px">
+                        <div class="container-content-2-section-2">
+                            <h5 class="title-container-content-2-section-2">Truyền dữ liệu khủng thần tốc.</h5>
+                            <p class="right-content-2">iPhone 15 Pro là chiếc iPhone đầu tiên hỗ trợ USB 3,5 đem đến bước nhảy vọt lớn về tốc độ truyền dữ liệu và xử lý các luồng công việc pro nhanh hơn bao giờ hết.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="binh-luan section" id="reviews">
+                <div class="section-3">
+                    <div class="cards">
+                        <div class="TalkAboutUs">
+                            <h1>Bình Luận</h1>
+                        </div>
+                        <div class="card">
+                            <div class="image-section-4">
+                                <img src="./asset/img/nahid photo.png" alt="">
+                            </div>
+                            <div class="description">
+                                <h2>CHRISTOPHE GALTIER</h2>
+                            </div>
+                            <div class="button-ground">
+                                <button class="button">Khách hàng</button>
+                            </div>
+                            <div>
+                                <img src="./asset/img/Frame 22-1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p> Mình rất thích thiết kế của chiếc điện thoại này <br>
+                                    Mình cũng rất hài lòng với hiệu năng của máy. <br>
+                                    Mọi thứ đều hoạt động rất mượt mà</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-section-4">
+                                <img src="./asset/img/nahid photo-1.png" alt="">
+                            </div>
+                            <div class="description">
+                                <h2>AWN WILD</h2>
+                            </div>
+                            <div class="button-ground">
+                                <button class="button">Khách hàng</button>
+                            </div>
+                            <div>
+                                <img src="./asset/img/Frame 22-1.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Mình rất ấn tượng với camera của chiếc điện thoại này<br> Mình có thể chụp được những bức ảnh rất đẹp, sống động. Pin của máy cũng rất trâu.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-section-4">
+                                <img src="./asset/img/nahid photo-2.png" alt="">
+                            </div>
+                            <div class="description">
+                                <h2>WWF - VIỆT NAM</h2>
+                            </div>
+                            <div class="button-ground">
+                                <button class="button">Khách hàng</button>
+                            </div>
+                            <div>
+                                <img src="./asset/img/Frame 22-2.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Mình thấy rất hài lòng với sản phẩm này <br>
+                                    Mình mua chiếc điện thoại này với giá rất hợp lý. <br>
+                                    Nó đáp ứng được tất cả nhu cầu sử dụng của mình.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order section" id="order">
+                <div class="section-4 row">
+                    <div class="title-section-4 col l-12 m-12 c-12">
+                        <h1 class="title-section">Đặt Hàng</h1>
+                    </div>
+                </div>
+                <div class="container-seciton-4 row">
+                    <div class="section-form col l-6 m-6 c-12">
+                        <form>
+                            <div class="form_control">
+                                <input type="text" placeholder="Họ và tên*" id="hovaten" />
+                                <small></small>
+                            </div>
+                            <div class="form_control">
+                                <input type="email" placeholder="Email*" id="email"/>
+                                <small></small>
+                            </div>
+                            <div class="form_control">
+                                <input type="tel" placeholder="Số điện thoại*" id="sdt" />
+                                <small></small>
+                            </div>
+                            <div class="form_control">
+                                <textarea style="resize: none; width: 96%; height: 200px;" id="diachi" placeholder="Địa chỉ"></textarea>
+                                <small></small>
+
+                            </div>
+                            <div class="submit">
+                                <button class="button" id="submit"><span></span>Đặt Hàng</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="img-seciton-4 col l-6 m-6 c-0">
+                        <img src="./asset/img/dathang2.png" alt="">
+                    </div>
+                </div>
+            </div>
+       </main>
+       <footer>
+            <div class="content-footer">
+                <h3>Thank You For Trusting Us</h3>
+                <div class="contac-us">
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+           
+       </footer>
+    </div>
+    <script src="./asset/js/main.js"></script>
+    
+</body>
+</html>
